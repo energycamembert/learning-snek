@@ -1,15 +1,15 @@
 # Program to check for missing items in the lists
 # This can be used to check for missing files (f.e. client requests a list of photographs to edit and you need to double check all the edits are in the folder)
 
+#energycamembert 2023
+
 
 def main():
 
     # Two lists to be checked against each other
     files_demand = ['DSC101', 'DSC102', 'DSC103', 'DSC104', 'DSC105', 'DSC106']
     files_input = ['DSC101', 'DSC102', 'DSC107', 'DSC104', 'DSC106']
-    
-    # Run X times with X being the higher number of both lists
-
+   
     print("Demanded list has", len(files_demand), "files.")
     print("Submitted list has", len(files_input), "files.")
 
@@ -52,7 +52,7 @@ def main():
                 cache = cache +1
                 #print("Cache in else:", cache)
             
-        # If at the end of the list match_found still is False, the file is missing.
+        # If at the end of the checker loop match_found still is False, the file is missing.
         #
         if match_found is False:
             print("Match_found = False")
