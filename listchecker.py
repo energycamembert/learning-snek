@@ -51,7 +51,7 @@ def main():
             else:
                 cache = cache +1
             
-        # If at the end of the checker loop match_found still is False, the file is missing.
+        # If at the end of the checker loop match_found still is False, the file is considered missing.
         #
         if match_found is False:
             print("Match_found = False")
