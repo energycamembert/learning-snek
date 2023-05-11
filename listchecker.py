@@ -50,7 +50,6 @@ def main():
 
             else:
                 cache = cache +1
-                #print("Cache in else:", cache)
             
         # If at the end of the checker loop match_found still is False, the file is missing.
         #
