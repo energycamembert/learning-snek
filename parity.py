@@ -14,6 +14,8 @@ def is_even(n):
         return True
     else:
         return False
+    
+   #IMPORTANT: BOOLEAN VALUES HAVE TO BE WRITTEN WITH UPPER CASE
 
 
 main()
